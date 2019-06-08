@@ -1,7 +1,6 @@
 # Rcardle
-japanese original game
 
-![97135947ec2a5bc59bc1366b50ba24b0](https://user-images.githubusercontent.com/51286958/59147188-a2c07d80-8a33-11e9-9def-85327d05fcad.png)
+japanese original game
 
 cheese 1 card among 3 cards
 
@@ -9,11 +8,15 @@ and you can change beated enemy
 
 try to beat satan
 
+![97135947ec2a5bc59bc1366b50ba24b0](https://user-images.githubusercontent.com/51286958/59147188-a2c07d80-8a33-11e9-9def-85327d05fcad.png)
+
 # start
 
 run Rcardle-master\arukadoru\arukadoru.exe
 
-caution! Sound comes out
+# caution! 
+
+Sound comes out
 
 Redistribution prohibited
 
