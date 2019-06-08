@@ -2,9 +2,9 @@
 
 japanese original game
 
-cheese 1 card among 3 cards
+cheese 1 card among 3 cards for battle
 
-and you can change beated enemy 
+you can change beated enemy 
 
 try to beat satan
 
