@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2AF75359-EE9B-0D07-F1DB-93D0D734C773}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_7_2;UNITY_4_7;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\resource\music\MainSoundScript.cs" />
+     <Compile Include="Assets\scripts\AspectUtility.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacter.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterHP\enemyheart1.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterHP\enemyheart2.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterHP\enemyheart3.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterHP\enemyheart4.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice large\ealarge\ealarge0.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice large\ealarge\ealarge1.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice large\edlarge.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice large\eslarge\eslarge1.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice large\eslarge\eslarge2.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice large\eslarge\eslarge3.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice large\eslarge\eslarge4.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice large\eslarge\eslarge5.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice large\eslarge\eslarge6.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice large\eslarge\eslarge7.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice\enemyattack\enemyattack0.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice\enemyattack\enemyattack1.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice\enemydefense.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice\enemyspecial\enemyspecial1.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice\enemyspecial\enemyspecial2.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice\enemyspecial\enemyspecial3.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice\enemyspecial\enemyspecial4.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice\enemyspecial\enemyspecial5.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice\enemyspecial\enemyspecial6.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemycharacterchoice\enemyspecial\enemyspecial7.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\ea\eax0.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\ea\eax1.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\ea\eax2.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\ea\eax3.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\ed\edx0.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\ed\edx1.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\ed\edx2.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\ed\edx3.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\es\esx0.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\es\esx1.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\es\esx2.cs" />
+     <Compile Include="Assets\scripts\battle\enemycharacter\enemyselectcount\es\esx3.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacter.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterHP\maincharacterheart1.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterHP\maincharacterheart2.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterHP\maincharacterheart3.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterHP\maincharacterheart4.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice large\calarge\calarge0.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice large\calarge\calarge1.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice large\cdlarge.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice large\cslarge\cslarge0.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice large\cslarge\cslarge1.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice large\cslarge\cslarge2.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice large\cslarge\cslarge3.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice large\cslarge\cslarge4.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice large\cslarge\cslarge5.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice large\cslarge\cslarge6.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice\maincharacterattack\maincharacterattack0.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice\maincharacterattack\maincharacterattack1.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice\maincharacterdefense.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice\maincharacterspecial\maincharacterspecial0.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice\maincharacterspecial\maincharacterspecial1.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice\maincharacterspecial\maincharacterspecial2.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice\maincharacterspecial\maincharacterspecial3.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice\maincharacterspecial\maincharacterspecial4.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice\maincharacterspecial\maincharacterspecial5.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterchoice\maincharacterspecial\maincharacterspecial6.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\ca\cax0.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\ca\cax1.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\ca\cax2.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\ca\cax3.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\cd\cdx0.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\cd\cdx1.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\cd\cdx2.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\cd\cdx3.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\cs\csx0.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\cs\csx1.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\cs\csx2.cs" />
+     <Compile Include="Assets\scripts\battle\maincharacter\maincharacterselectcount\cs\csx3.cs" />
+     <Compile Include="Assets\scripts\battle\scenemanager.cs" />
+     <Compile Include="Assets\scripts\clear\clearbotton.cs" />
+     <Compile Include="Assets\scripts\gameover\gameoverbotton.cs" />
+     <Compile Include="Assets\scripts\ready\maincharacter\character.cs" />
+     <Compile Include="Assets\scripts\ready\maincharacter\chr0.cs" />
+     <Compile Include="Assets\scripts\ready\maincharacter\chr1.cs" />
+     <Compile Include="Assets\scripts\ready\maincharacter\chr2.cs" />
+     <Compile Include="Assets\scripts\ready\maincharacter\chr3.cs" />
+     <Compile Include="Assets\scripts\ready\maincharacter\chr4.cs" />
+     <Compile Include="Assets\scripts\ready\maincharacter\chr5.cs" />
+     <Compile Include="Assets\scripts\ready\maincharacter\chr6.cs" />
+     <Compile Include="Assets\scripts\ready\monster\mon1.cs" />
+     <Compile Include="Assets\scripts\ready\monster\mon2.cs" />
+     <Compile Include="Assets\scripts\ready\monster\mon3.cs" />
+     <Compile Include="Assets\scripts\ready\monster\mon4.cs" />
+     <Compile Include="Assets\scripts\ready\monster\mon5.cs" />
+     <Compile Include="Assets\scripts\ready\monster\mon6.cs" />
+     <Compile Include="Assets\scripts\ready\monster\mon7.cs" />
+     <Compile Include="Assets\scripts\ready\monster\monster.cs" />
+     <Compile Include="Assets\scripts\ready\readyprocess.cs" />
+     <Compile Include="Assets\scripts\result\botton\Text\nText.cs" />
+     <Compile Include="Assets\scripts\result\botton\Text\yText.cs" />
+     <Compile Include="Assets\scripts\result\botton\canvas.cs" />
+     <Compile Include="Assets\scripts\result\botton\nbotton.cs" />
+     <Compile Include="Assets\scripts\result\botton\ybutton.cs" />
+     <Compile Include="Assets\scripts\result\characterchangecheck.cs" />
+     <Compile Include="Assets\scripts\result\resultdescriotion.cs" />
+     <Compile Include="Assets\scripts\title\StartBotton.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.7.2/Standalone/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
