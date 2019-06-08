@@ -9,6 +9,10 @@ and you can change beated enemy
 
 try to beat satan
 
+# start
+
+run Rcardle-master\arukadoru\arukadoru.exe
+
 caution! Sound comes out
 
 Redistribution prohibited
